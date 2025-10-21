@@ -1,0 +1,48 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-10-21T16:56:13.276321Z",
+  "args": [
+    "--data",
+    "dataset\\aquarium_dataset\\data.yaml",
+    "--epochs",
+    "20",
+    "--batch",
+    "16",
+    "--imgsz",
+    "640",
+    "--model",
+    "yolov8n.pt",
+    "--project",
+    "yolo_streamlit",
+    "--name",
+    "run_1761065764",
+    "--device",
+    "cpu",
+    "--save_examples",
+    "outputs/examples"
+  ],
+  "program": "C:\\Users\\ghofr\\Bureau\\yolo_training\\train_yolo.py",
+  "codePath": "train_yolo.py",
+  "codePathLocal": "train_yolo.py",
+  "git": {
+    "remote": "https://github.com/ghofran190/StreamYOLO.git",
+    "commit": "4ef2266559c81cf9858d6b281c6d571ab9add982"
+  },
+  "email": "ghoufranealoui2021@gmail.com",
+  "root": "C:\\Users\\ghofr\\Bureau\\yolo_training",
+  "host": "LAPTOP-956CPM7U",
+  "executable": "C:\\Users\\ghofr\\anaconda3\\envs\\anaconda-ml-ai\\python.exe",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "disk": {
+    "/": {
+      "total": "509793865728",
+      "used": "424036196352"
+    }
+  },
+  "memory": {
+    "total": "25376313344"
+  },
+  "writerId": "daf5853rlbkhnyahdhvy5s4y4zzxi77j"
+}

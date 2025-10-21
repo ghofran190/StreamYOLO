@@ -1,0 +1,15 @@
+{"time":"2025-10-21T14:53:04.2486438+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-21T14:53:04.7859438+01:00","level":"INFO","msg":"stream: created new stream","id":"k655n54p"}
+{"time":"2025-10-21T14:53:04.786736+01:00","level":"INFO","msg":"stream: started","id":"k655n54p"}
+{"time":"2025-10-21T14:53:04.786736+01:00","level":"INFO","msg":"handler: started","stream_id":"k655n54p"}
+{"time":"2025-10-21T14:53:04.786736+01:00","level":"INFO","msg":"sender: started","stream_id":"k655n54p"}
+{"time":"2025-10-21T14:53:04.786736+01:00","level":"INFO","msg":"writer: started","stream_id":"k655n54p"}
+{"time":"2025-10-21T15:01:43.3081129+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/k655n54p/file_stream\": context deadline exceeded"}
+{"time":"2025-10-21T15:01:45.4565787+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/k655n54p/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T15:19:37.5675471+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T15:19:37.5675471+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/k655n54p/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T15:21:43.5291326+01:00","level":"INFO","msg":"stream: closing","id":"k655n54p"}
+{"time":"2025-10-21T15:21:44.332356+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T15:21:44.8190487+01:00","level":"INFO","msg":"handler: closed","stream_id":"k655n54p"}
+{"time":"2025-10-21T15:21:44.8239404+01:00","level":"INFO","msg":"sender: closed","stream_id":"k655n54p"}
+{"time":"2025-10-21T15:21:44.824454+01:00","level":"INFO","msg":"stream: closed","id":"k655n54p"}

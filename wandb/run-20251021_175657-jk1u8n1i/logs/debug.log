@@ -1,0 +1,94 @@
+2025-10-21 17:56:57,365 INFO    MainThread:12088 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-10-21 17:56:57,366 INFO    MainThread:12088 [wandb_setup.py:_flush():81] Configure stats pid to 12088
+2025-10-21 17:56:57,366 INFO    MainThread:12088 [wandb_setup.py:_flush():81] Loading settings from C:\Users\ghofr\.config\wandb\settings
+2025-10-21 17:56:57,366 INFO    MainThread:12088 [wandb_setup.py:_flush():81] Loading settings from C:\Users\ghofr\Bureau\yolo_training\wandb\settings
+2025-10-21 17:56:57,367 INFO    MainThread:12088 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-21 17:56:57,368 INFO    MainThread:12088 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\ghofr\Bureau\yolo_training\wandb\run-20251021_175657-jk1u8n1i\logs\debug.log
+2025-10-21 17:56:57,370 INFO    MainThread:12088 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\ghofr\Bureau\yolo_training\wandb\run-20251021_175657-jk1u8n1i\logs\debug-internal.log
+2025-10-21 17:56:57,371 INFO    MainThread:12088 [wandb_init.py:init():813] calling init triggers
+2025-10-21 17:56:57,371 INFO    MainThread:12088 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'epochs': 3, 'batch': 16, 'imgsz': 640, 'model': 'yolov8n.pt', '_wandb': {}}
+2025-10-21 17:56:57,371 INFO    MainThread:12088 [wandb_init.py:init():861] starting backend
+2025-10-21 17:56:59,658 INFO    MainThread:12088 [wandb_init.py:init():864] sending inform_init request
+2025-10-21 17:56:59,711 INFO    MainThread:12088 [wandb_init.py:init():872] backend started and connected
+2025-10-21 17:56:59,713 INFO    MainThread:12088 [wandb_init.py:init():942] updated telemetry
+2025-10-21 17:56:59,850 INFO    MainThread:12088 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-10-21 17:57:00,647 INFO    MainThread:12088 [wandb_init.py:init():1017] starting run threads in backend
+2025-10-21 17:57:01,276 INFO    MainThread:12088 [wandb_run.py:_console_start():2506] atexit reg
+2025-10-21 17:57:01,276 INFO    MainThread:12088 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-10-21 17:57:01,276 INFO    MainThread:12088 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-10-21 17:57:01,276 INFO    MainThread:12088 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-10-21 17:57:01,284 INFO    MainThread:12088 [wandb_init.py:init():1057] run started, returning control to user process
+2025-10-21 19:28:28,152 INFO    MainThread:12088 [wandb_run.py:_finish():2272] finishing run ghoufranealoui2021-insat/yolo_streamlit/jk1u8n1i
+2025-10-21 19:28:28,155 INFO    MainThread:12088 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2025-10-21 19:28:28,156 INFO    MainThread:12088 [wandb_run.py:_restore():2453] restore
+2025-10-21 19:28:28,156 INFO    MainThread:12088 [wandb_run.py:_restore():2459] restore done
+2025-10-21 19:28:29,545 INFO    MainThread:12088 [wandb_run.py:_restore():2453] restore
+2025-10-21 19:28:29,546 INFO    MainThread:12088 [wandb_run.py:_restore():2459] restore done
+2025-10-21 19:28:29,546 ERROR   MainThread:12088 [wandb_run.py:_atexit_cleanup():2492] Problem finishing run
+Traceback (most recent call last):
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\wandb_run.py", line 2483, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\wandb_run.py", line 2735, in _on_finish
+    wait_with_progress(
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 77, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 219, in _wrap
+    return await fn()
+           ^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 65, in progress_loop_with_timeout
+    async with asyncio_compat.cancel_on_exit(display_progress()):
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 257, in cancel_on_exit
+    async with open_task_group(race=True) as group:
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 240, in open_task_group
+    await task_group._wait_all(race=race, timeout=exit_timeout)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 180, in _wait_all
+    raise exc
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\wandb_run.py", line 2711, in _display_finish_stats
+    async with asyncio_compat.open_task_group() as task_group:
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\contextlib.py", line 217, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 240, in open_task_group
+    await task_group._wait_all(race=race, timeout=exit_timeout)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 180, in _wait_all
+    raise exc
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\wandb_run.py", line 2691, in loop_update_printer
+    progress_printer.update(
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\progress.py", line 110, in update
+    self._update_operation_stats(
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\progress.py", line 145, in _update_operation_stats
+    self._printer.display(line)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\printer.py", line 314, in display
+    self._display_fn_mapping(level)(text)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\errors\term.py", line 172, in termlog
+    _log(
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\errors\term.py", line 358, in _log
+    click.echo(string, file=sys.stderr, nl=newline)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\click\utils.py", line 321, in echo
+    file.write(out)  # type: ignore
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\wandb\sdk\lib\console_capture.py", line 168, in write_with_callbacks
+    n = orig_write(s)
+        ^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+2025-10-21 19:28:29,600 INFO    wandb-AsyncioManager-main:12088 [service_client.py:_forward_responses():84] Reached EOF.
+2025-10-21 19:28:29,601 INFO    wandb-AsyncioManager-main:12088 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

@@ -1,0 +1,12 @@
+{"time":"2025-10-21T15:22:36.9055712+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-21T15:22:37.5177648+01:00","level":"INFO","msg":"stream: created new stream","id":"3w6hzkzw"}
+{"time":"2025-10-21T15:22:37.5177648+01:00","level":"INFO","msg":"stream: started","id":"3w6hzkzw"}
+{"time":"2025-10-21T15:22:37.5184349+01:00","level":"INFO","msg":"sender: started","stream_id":"3w6hzkzw"}
+{"time":"2025-10-21T15:22:37.5184349+01:00","level":"INFO","msg":"handler: started","stream_id":"3w6hzkzw"}
+{"time":"2025-10-21T15:22:37.5184349+01:00","level":"INFO","msg":"writer: started","stream_id":"3w6hzkzw"}
+{"time":"2025-10-21T15:30:31.4623182+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/3w6hzkzw/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T15:33:25.1086285+01:00","level":"INFO","msg":"stream: closing","id":"3w6hzkzw"}
+{"time":"2025-10-21T15:33:25.9530925+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T15:33:26.3123505+01:00","level":"INFO","msg":"handler: closed","stream_id":"3w6hzkzw"}
+{"time":"2025-10-21T15:33:26.3143287+01:00","level":"INFO","msg":"sender: closed","stream_id":"3w6hzkzw"}
+{"time":"2025-10-21T15:33:26.3143287+01:00","level":"INFO","msg":"stream: closed","id":"3w6hzkzw"}

@@ -1,0 +1,19 @@
+{"time":"2025-10-21T17:56:59.7164264+01:00","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-21T17:57:00.2680715+01:00","level":"INFO","msg":"stream: created new stream","id":"jk1u8n1i"}
+{"time":"2025-10-21T17:57:00.2680715+01:00","level":"INFO","msg":"stream: started","id":"jk1u8n1i"}
+{"time":"2025-10-21T17:57:00.2680715+01:00","level":"INFO","msg":"handler: started","stream_id":"jk1u8n1i"}
+{"time":"2025-10-21T17:57:00.2680715+01:00","level":"INFO","msg":"writer: started","stream_id":"jk1u8n1i"}
+{"time":"2025-10-21T17:57:00.2680715+01:00","level":"INFO","msg":"sender: started","stream_id":"jk1u8n1i"}
+{"time":"2025-10-21T19:21:37.855484+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/jk1u8n1i/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T19:21:39.9495291+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/jk1u8n1i/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T19:21:44.7258142+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ghoufranealoui2021-insat/yolo_streamlit/jk1u8n1i/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T19:21:48.5269223+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T19:21:50.7176563+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-10-21T19:28:28.1613996+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.0025495}],"total_operations":1}}
+{"time":"2025-10-21T19:28:29.1243584+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-21T19:28:29.6017773+01:00","level":"ERROR","msg":"sender: sendSummary called after exit"}
+{"time":"2025-10-21T19:28:29.601199+01:00","level":"INFO","msg":"stream: closing","id":"jk1u8n1i"}
+{"time":"2025-10-21T19:28:29.6023697+01:00","level":"INFO","msg":"handler: closed","stream_id":"jk1u8n1i"}
+{"time":"2025-10-21T19:28:29.6103422+01:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-10-21T19:28:29.6103422+01:00","level":"INFO","msg":"sender: closed","stream_id":"jk1u8n1i"}
+{"time":"2025-10-21T19:28:29.6103422+01:00","level":"INFO","msg":"stream: closed","id":"jk1u8n1i"}

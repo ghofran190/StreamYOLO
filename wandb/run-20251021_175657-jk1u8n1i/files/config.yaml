@@ -1,0 +1,74 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            v9a91qtyrpobrd8mw5w7r6dh527v0xlv:
+                args:
+                    - --data
+                    - dataset\aquarium_dataset\data.yaml
+                    - --epochs
+                    - "3"
+                    - --batch
+                    - "16"
+                    - --imgsz
+                    - "640"
+                    - --model
+                    - yolov8n.pt
+                    - --project
+                    - yolo_streamlit
+                    - --name
+                    - run_1761065806
+                    - --device
+                    - cpu
+                    - --save_examples
+                    - outputs/examples
+                codePath: train_yolo.py
+                codePathLocal: train_yolo.py
+                cpu_count: 14
+                cpu_count_logical: 20
+                disk:
+                    /:
+                        total: "509793865728"
+                        used: "424039526400"
+                email: ghoufranealoui2021@gmail.com
+                executable: C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\python.exe
+                git:
+                    commit: 4ef2266559c81cf9858d6b281c6d571ab9add982
+                    remote: https://github.com/ghofran190/StreamYOLO.git
+                host: LAPTOP-956CPM7U
+                memory:
+                    total: "25376313344"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\ghofr\Bureau\yolo_training\train_yolo.py
+                python: CPython 3.11.13
+                root: C:\Users\ghofr\Bureau\yolo_training
+                startedAt: "2025-10-21T16:56:57.358803Z"
+                writerId: v9a91qtyrpobrd8mw5w7r6dh527v0xlv
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.22.0
+            "8":
+                - 3
+            "12": 0.22.0
+            "13": windows-amd64
+batch:
+    value: 16
+epochs:
+    value: 3
+imgsz:
+    value: 640
+model:
+    value: yolov8n.pt

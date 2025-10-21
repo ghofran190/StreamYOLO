@@ -1,0 +1,6 @@
+train: C:/Users/ghofr/Bureau/yolo_training/dataset/aquarium_dataset/images/train
+val: C:/Users/ghofr/Bureau/yolo_training/dataset/aquarium_dataset/images/val
+test: C:/Users/ghofr/Bureau/yolo_training/dataset/aquarium_dataset/images/test
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
+

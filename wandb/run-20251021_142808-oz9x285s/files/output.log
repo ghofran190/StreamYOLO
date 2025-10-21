@@ -1,0 +1,22 @@
+Ultralytics 8.3.218  Python-3.11.13 torch-2.8.0+cpu
+Traceback (most recent call last):
+  File "C:\Users\ghofr\Bureau\yolo_training\train_yolo.py", line 96, in <module>
+    main()
+  File "C:\Users\ghofr\Bureau\yolo_training\train_yolo.py", line 38, in main
+    model.train(data=args.data, epochs=args.epochs, imgsz=args.imgsz,
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\ultralytics\engine\model.py", line 795, in train
+    self.trainer = (trainer or self._smart_load("trainer"))(overrides=args, _callbacks=self.callbacks)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\ultralytics\models\yolo\detect\train.py", line 65, in __init__
+    super().__init__(cfg, overrides, _callbacks)
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\ultralytics\engine\trainer.py", line 126, in __init__
+    self.device = select_device(self.args.device)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ghofr\anaconda3\envs\anaconda-ml-ai\Lib\site-packages\ultralytics\utils\torch_utils.py", line 199, in select_device
+    raise ValueError(
+ValueError: Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.
+
+torch.cuda.is_available(): False
+torch.cuda.device_count(): 0
+os.environ['CUDA_VISIBLE_DEVICES']: None
+See https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.

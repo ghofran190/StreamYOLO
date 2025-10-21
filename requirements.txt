@@ -1,0 +1,8 @@
+
+wandb
+streamlit
+opencv-python
+matplotlib
+scikit-learn
+pyyaml
+pandas

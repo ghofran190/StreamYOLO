@@ -1,0 +1,21 @@
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_setup.py:_flush():81] Configure stats pid to 19676
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_setup.py:_flush():81] Loading settings from C:\Users\ghofr\.config\wandb\settings
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_setup.py:_flush():81] Loading settings from C:\Users\ghofr\Bureau\yolo_training\wandb\settings
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_init.py:setup_run_log_directory():686] Logging user logs to C:\Users\ghofr\Bureau\yolo_training\wandb\run-20251021_144018-uy4b09c9\logs\debug.log
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to C:\Users\ghofr\Bureau\yolo_training\wandb\run-20251021_144018-uy4b09c9\logs\debug-internal.log
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_init.py:init():813] calling init triggers
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'epochs': 20, 'batch': 16, 'imgsz': 640, 'model': 'yolov8n.pt', '_wandb': {}}
+2025-10-21 14:40:18,695 INFO    MainThread:19676 [wandb_init.py:init():861] starting backend
+2025-10-21 14:40:21,004 INFO    MainThread:19676 [wandb_init.py:init():864] sending inform_init request
+2025-10-21 14:40:21,049 INFO    MainThread:19676 [wandb_init.py:init():872] backend started and connected
+2025-10-21 14:40:21,051 INFO    MainThread:19676 [wandb_init.py:init():942] updated telemetry
+2025-10-21 14:40:21,432 INFO    MainThread:19676 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-10-21 14:40:23,101 INFO    MainThread:19676 [wandb_init.py:init():1017] starting run threads in backend
+2025-10-21 14:40:23,730 INFO    MainThread:19676 [wandb_run.py:_console_start():2506] atexit reg
+2025-10-21 14:40:23,732 INFO    MainThread:19676 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-10-21 14:40:23,732 INFO    MainThread:19676 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-10-21 14:40:23,733 INFO    MainThread:19676 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-10-21 14:40:23,740 INFO    MainThread:19676 [wandb_init.py:init():1057] run started, returning control to user process

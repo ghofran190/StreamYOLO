@@ -1,0 +1,47 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.13",
+  "startedAt": "2025-10-21T12:29:17.015677Z",
+  "args": [
+    "--data",
+    "dataset\\aquarium_dataset\\data.yaml",
+    "--epochs",
+    "20",
+    "--batch",
+    "16",
+    "--imgsz",
+    "640",
+    "--model",
+    "yolov8n.pt",
+    "--project",
+    "yolo_streamlit",
+    "--name",
+    "run_1761049739",
+    "--device",
+    "cpu",
+    "--save_examples",
+    "outputs/examples"
+  ],
+  "program": "C:\\Users\\ghofr\\Bureau\\yolo_training\\train_yolo.py",
+  "codePath": "Bureau\\yolo_training\\train_yolo.py",
+  "codePathLocal": "train_yolo.py",
+  "git": {
+    "remote": "https://github.com/ghofran190/IoT-Security.git",
+    "commit": "3536f49f925b57a63476033647abad6662ef1663"
+  },
+  "root": "C:\\Users\\ghofr\\Bureau\\yolo_training",
+  "host": "LAPTOP-956CPM7U",
+  "executable": "C:\\Users\\ghofr\\anaconda3\\envs\\anaconda-ml-ai\\python.exe",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "disk": {
+    "/": {
+      "total": "509793865728",
+      "used": "422817005568"
+    }
+  },
+  "memory": {
+    "total": "25376313344"
+  },
+  "writerId": "6xw17nhydyprl0uuu0et2gmwmm0bqgiv"
+}
