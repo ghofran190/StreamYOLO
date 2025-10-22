@@ -16,7 +16,9 @@ A mini Streamlit UI to configure, train, and visualize YOLO object detection mod
 - Handles dataset folder detection and `data.yaml` automatically.
 
 ---
-
+## application Interface
+![Application Interface](assets/stramyolo.png)
+---
 ## 📦 Installation
 
 ```bash
@@ -31,7 +33,6 @@ conda activate streamyolo
 # Install dependencies
 pip install -r requirements.txt
 
-## application Interface
-![application Interface](assets/stramyolo.png)
+
 
 
