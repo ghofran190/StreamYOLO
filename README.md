@@ -30,3 +30,8 @@ conda activate streamyolo
 
 # Install dependencies
 pip install -r requirements.txt
+
+## application Interface
+![application Interface](assets/stramyolo.png)
+
+
